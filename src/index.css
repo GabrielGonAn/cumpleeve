@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MiFuenteTitulo';
+  src: url('/fuente_titulo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MiFuenteCuerpo';
+  src: url('/fuente_cuerpo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-titulo {
+  font-family: 'MiFuenteTitulo', 'Georgia', serif;
+}
+
+.font-cuerpo {
+  font-family: 'MiFuenteCuerpo', 'Helvetica', sans-serif;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    box-shadow: 0 10px 25px -5px rgba(184, 115, 115, 0.3);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+    box-shadow: 0 20px 35px -5px rgba(184, 115, 115, 0.45);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    box-shadow: 0 10px 25px -5px rgba(184, 115, 115, 0.3);
+  }
+}
+
+.floating-photo {
+  animation: floatAnimation 4s ease-in-out infinite;
+}
+
+@keyframes softPulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+.bg-pulse {
+  animation: softPulse 6s ease-in-out infinite;
+}
