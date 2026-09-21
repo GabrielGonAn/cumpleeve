@@ -20,19 +20,19 @@ export default function BirthdayPage({ audioRef, isPlaying, isMuted, togglePlay,
     {
       id: 1,
       title: "Foto 1 ✨",
-      image: "/scrt1.jpeg",
+      image: "scrt1.jpeg",
       caption: "❤️"
     },
     {
       id: 2,
       title: "Foto 2 💖",
-      image: "/scrt2.jpeg",
+      image: "scrt2.jpeg",
       caption: "✨"
     },
     {
       id: 3,
       title: "Foto 3 🎁",
-      image: "/scrt3.jpeg",
+      image: "scrt3.jpeg",
       caption: "Por muchos más momentos 🎉"
     }
   ];
@@ -188,7 +188,7 @@ export default function BirthdayPage({ audioRef, isPlaying, isMuted, togglePlay,
 
           <div className="overflow-hidden rounded-xl bg-[#ebd9c8] relative flex items-center justify-center">
             <img
-              src="/foto1.jpeg"
+              src="foto1.jpeg"
               alt="Foto de nosotros"
               className="w-full h-auto max-h-[70vh] object-contain rounded-xl"
               onError={(e) => {
@@ -214,7 +214,7 @@ export default function BirthdayPage({ audioRef, isPlaying, isMuted, togglePlay,
           <div className="relative p-2.5 bg-white rounded-2xl border border-[#e2cebc] shadow-md transform -rotate-2 hover:rotate-0 transition-transform duration-300 max-w-xs w-full">
             <div className="overflow-hidden rounded-xl bg-[#ebd9c8] aspect-[4/5] relative">
               <img
-                src="/foto2.jpeg"
+                src="foto2.jpeg"
                 alt="Foto 2"
                 className="w-full h-full object-cover"
                 onError={(e) => {
@@ -300,7 +300,7 @@ export default function BirthdayPage({ audioRef, isPlaying, isMuted, togglePlay,
           <div className="relative p-2.5 bg-white rounded-2xl border border-[#e2cebc] shadow-md transform rotate-2 hover:rotate-0 transition-transform duration-300 max-w-xs w-full">
             <div className="overflow-hidden rounded-xl bg-[#ebd9c8] aspect-[4/5] relative">
               <img
-                src="/foto3.jpg"
+                src="foto3.jpg"
                 alt="Foto 3"
                 className="w-full h-full object-cover"
                 onError={(e) => {
@@ -385,7 +385,7 @@ export default function BirthdayPage({ audioRef, isPlaying, isMuted, togglePlay,
           <div className="relative p-2.5 bg-white rounded-2xl border border-[#e2cebc] shadow-md transform -rotate-3 hover:rotate-0 transition-transform duration-300 max-w-xs w-full">
             <div className="overflow-hidden rounded-xl bg-[#ebd9c8] aspect-[4/5] relative">
               <img
-                src="/foto4.jpg"
+                src="foto4.jpg"
                 alt="Foto 4"
                 className="w-full h-full object-cover"
                 onError={(e) => {
