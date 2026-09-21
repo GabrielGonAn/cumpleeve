@@ -4,7 +4,7 @@ import { Volume2, VolumeX, Music, Play, Pause, Sparkles } from 'lucide-react';
 export default function AudioPlayer({ audioRef, isPlaying, isMuted, togglePlay, toggleMute, audioError }) {
   return (
     <>
-      <audio ref={audioRef} src="/audiofondo.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="audiofondo.mp3" loop preload="auto" />
 
       <div className="fixed top-4 right-4 z-50 bg-[#f3e6d8]/90 backdrop-blur-md border border-[#e2cebc] rounded-full px-3 py-1.5 flex items-center gap-2 shadow-md">
         <Music className="w-4 h-4 text-[#d95d39] animate-spin" style={{ animationDuration: '4s' }} />
